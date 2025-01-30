@@ -1,5 +1,5 @@
 node_modules
-
+build
 # amplify
 .amplify
 amplify_outputs*
