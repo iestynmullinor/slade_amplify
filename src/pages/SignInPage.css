@@ -1,0 +1,97 @@
+/* src/pages/SignInPage.css */
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    background-color: #fffaf0; /* Light orange background */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */
+    min-height: 100vh;      /* Sets the body height to viewport height */
+    margin: 0;              /* Removes default margin */
+}
+
+
+/* Main container */
+.signin-page {
+    max-width: 500px;
+    margin: 8px auto;
+    background-color: #ffffff;
+    padding: 5px 30px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Title styling */
+.signin-title {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #C4501B; /* Orange color */
+}
+
+/* Form styling */
+.signin-form {
+    width: 100%;
+}
+
+/* Form group */
+.form-group {
+    margin-bottom: 25px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+/* Label styling */
+.form-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333333;
+}
+
+/* Input styling */
+.form-input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.form-input:focus {
+    border-color: #28a745; /* Green border on focus */
+    outline: none;
+}
+
+/* Submit button */
+.submit-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #28a745; /* Green background */
+    color: #ffffff;
+    border: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.homepage-logo {
+    width: 100%; /* Adjust the width as needed */
+    height: auto;
+    /* Add any additional styles here */
+}
